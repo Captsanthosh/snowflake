@@ -10,5 +10,5 @@ streamlit.text('phoebe like rare things')
 streamlit.text('ross like marriage')
 
 
-streamlit.header('FAVORATE')
+streamlit.header('FAVOURITE')
 streamlit.text('HOW U DOING......')
