@@ -8,12 +8,8 @@ import streamlit
 #streamlit.text('chandler like sarcastic comments')
 #streamlit.text('phoebe like rare things')
 #streamlit.text('ross like marriage')
-
-
 #streamlit.header('FAVOURITE')
 #streamlit.text('HOW U DOING......')
-
-
 
 import pandas
 
@@ -21,5 +17,5 @@ my_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw
 streamlit.dataframe(my_list)
 
 
-steamlit.multiselect("pick some fruits from list:", list(my_list.index))
+streamlit.multiselect("pick some fruits from list:", list(my_list.index))
 streamlit.dataframe(my_list)
