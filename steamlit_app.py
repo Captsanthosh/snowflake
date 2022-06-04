@@ -8,3 +8,6 @@ streamlit.text('monica like perfection')
 streamlit.text('chandler like sarcastic comments')
 streamlit.text('phoebe like rare things')
 streamlit.text('ross like marriage')
+
+
+streamlit.text('HOW U DOING......')
